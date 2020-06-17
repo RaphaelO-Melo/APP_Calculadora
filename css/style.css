@@ -1,0 +1,59 @@
+/*Calculator Background*/
+div.calculator-bg {
+    width: 350px;
+    height: 500px;
+    margin-top: 10%;
+
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #5B3F7E;
+}
+
+/*Rounded Elements*/
+.rounded-el{
+    border-radius: 25px;
+}
+
+.rounded-el-soft{
+    border-radius: 10px;
+}
+
+/*Calculator Buttons*/
+.btn-cal-div {
+    height: 75px;
+    padding: 5px;
+
+    text-align: center;
+    line-height: 60px;
+}
+.btn-cal{
+    background-color: #DED3EC;
+    width: 100%;
+    height: 100%;
+}
+
+.btn-equal{
+    height: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.last-line{
+    margin-top: -75px;
+}
+
+.otln {
+    border: 1px solid red;;
+}
