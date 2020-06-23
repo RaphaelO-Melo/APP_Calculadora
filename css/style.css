@@ -1,59 +1,91 @@
-/*Calculator Background*/
+/* CUSTOM FONTS */
+@font-face{
+    font-family: "Calculator Number";
+    src: url("../src/fonts/Calculator.woff");
+}
+
+/* FONT BASE */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+}
+
+/* CALCULATOR BACKGROUND */
 div.calculator-bg {
     width: 350px;
     height: 500px;
     margin-top: 10%;
-
     padding-left: 25px;
     padding-right: 25px;
-    background-color: #5B3F7E;
+
+    background-color: #4f4d5f;
+    box-shadow: 3px 3px 6px black;
 }
 
-/*Rounded Elements*/
+/* ROUNDED ELEMENTS */
 .rounded-el{
     border-radius: 25px;
 }
 
 .rounded-el-soft{
     border-radius: 10px;
+    box-shadow: 1px 1px 6px black;
 }
 
-/*Calculator Buttons*/
+/* CALCULATOR BUTTONS */
 .btn-cal-div {
     height: 75px;
     padding: 5px;
 
-    text-align: center;
     line-height: 60px;
+    font-weight: bold;
+    text-align: center;
 }
+
 .btn-cal{
-    background-color: #DED3EC;
     width: 100%;
     height: 100%;
+
+    color: #42495c;
+    background-color: #beb9dd;
 }
 
-.btn-equal{
+.btn-cal:hover{
+    cursor: pointer;
+    font-size: 24px;
+    
+    color: #42495c;
+    background-color: #d0cee7;
+}
+
+.btn-equal {
     height: 150px;
+    line-height: 140px;
 }
 
+/* RESULT AREA */
+.result-area{
+    background-color: #7cdac2;
+}
 
+.result-inner-area{
+    border: none;
+    padding: 25px 10px;
+    
+    text-align: right;
+    font-size: 1.65em;
+    font-weight: bold;
+    font-family: "Calculator Number", sans-serif;
+    
+    color: #596a74;
+    background-color: #9ee4d4;
+}
 
+.result-inner-area:disabled{
+    background-color: #9ee4d4;
+}
 
-
-
-
-
-
-
-
-
-
-
-
+/* CORRECTION CLASSES */
 .last-line{
     margin-top: -75px;
-}
-
-.otln {
-    border: 1px solid red;;
 }
